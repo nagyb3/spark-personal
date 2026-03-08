@@ -8,7 +8,7 @@ public class EmptyWebUI {
     public static void main(String[] args) {
         SparkSession spark = SparkSession
                 .builder()
-                .appName("JavaLogQuery")
+                .appName("EmptyWebUI")
                 .master("local[*]")
                 .getOrCreate();
 

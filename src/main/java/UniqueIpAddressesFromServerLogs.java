@@ -9,7 +9,7 @@ public class UniqueIpAddressesFromServerLogs {
     public static void main(String[] args) {
         SparkSession spark = SparkSession
                 .builder()
-                .appName("FilterServerLogs")
+                .appName("UniqueIpAddressesFromServerLogs")
                 .master("local[*]")
                 .getOrCreate();
 
